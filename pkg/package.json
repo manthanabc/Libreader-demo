@@ -1,0 +1,15 @@
+{
+  "name": "libreader",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "kumiko_wasm_bg.wasm",
+    "kumiko_wasm.js",
+    "kumiko_wasm.d.ts"
+  ],
+  "main": "kumiko_wasm.js",
+  "types": "kumiko_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
